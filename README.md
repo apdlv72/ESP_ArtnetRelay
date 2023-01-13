@@ -18,9 +18,13 @@ pins and so forth. So I decided to merge those different sketches nd have someth
 I can reuse for different (future) devices as well.
 
 Right now, this sketch can control up to 2 relays connected to GPIO pins that can be configured at runtime.
-It supports also runtime WiFi configuration via WiFiManager and is able to create a square wave signal on a
-GPIO that can be used to trigger e.g. analogue stroboscopes.
-Moreover it supports also temperature monitoring e.g. for fan control or switching off a device when it gets too hot.
+Beside this, it supports the following features:
+
+- runtime WiFi configuration via WiFiManager
+- ouput a square wave signal on a GPIO that can be used to trigger e.g. analogue stroboscope
+- temperature monitoring of sensitive device to activate a fan or deactivate the load
+- debug logging on a UDP port
+
 
 
 
